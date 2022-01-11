@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<title>안뇽</title>
+<meta charset ="utf-8">
+<style>
+
+a{text-decoration:none;
+  font-size:40px; margin:10px; padding:1px; width:85px;
+  border-style:solid;
+  border-color:yellow;
+  display:block;
+   }
+
+h1{text-align:center;
+   border:1px solid yellow;
+   border-width:5px;
+  font-size:50px;
+  color:white;
+   margin:0;
+   padding:20px;}
+
+  body{background-image: url("무지개.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;}
+
+  ul {border-right:1px solid gray;}
+#nostart{width:220px;
+         color:pink;}
+
+
+
+
+/*
+주석을 달아볼거에요
+우리는 세가지 레벨을 알고 있어요
+클래스,id,태그 선택자 이
+id>클래스>태그 힘의 서열입니다
+id가 강력하단걸 증명해볼거에요
+그렇다면 a선택자들을 동일한 효과 적용후
+뒤에 태그가 적용된느점을 이용해서 id태그를 먼저 적은후
+뒤에 a태그를 이용했을때 id태그의 내용이 적용이 된다면 id가 더 강력하다는 것을 파악할 수 있습니다.
+*/
+
+  </style>
+</head>
+
+<body>
+<h1>투명인간으로 살아보기</h1>
+<ul>
+<li><center><a href ="시작.html">시작</center></a></li>
+<li><center><a href ="youtube.com" id="nostart">시작 안하기</center></a></li>
+
+</ul>
+<!-- 영상  -->
+
+
+
+<audio controls src="크리쯔마쓔.mp3" autoplay=></audio>
+
+
+소리를 질러봅시다
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://messiseoul.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/61c95c1d80b2296cfdd3e7dc/1fnt8vl8l';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+  </body>
+  </html>
